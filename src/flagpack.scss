@@ -56,7 +56,7 @@
 }
 
 @each $country in $fp-countries {
-	.#{$country} { 
+	..#{$fp-country-prefix}#{$country} { 
 
     @if $fp-enable-4x3 == true {
       background-image: url('#{$fp-4x3-path}#{$country}.svg');
