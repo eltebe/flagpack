@@ -53,6 +53,12 @@ Flagpack is built with SASS (SCSS). There are a few variables that are `!default
 $fp-prefix: 'fp' !default;
 ```
 
+**Set flag prefix:** Set the class prefix (the default is ``).
+
+```
+$fp-country-prefix: 'flg' !default;
+```
+
 **Set default icon size:** This will also mofify the `fp-md`, `fp-lg` & `fp-rounded` sizes.
 
 ```
